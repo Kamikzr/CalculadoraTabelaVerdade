@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Resultado2));
             this.lblP11 = new System.Windows.Forms.Label();
             this.lblP12 = new System.Windows.Forms.Label();
             this.lblP13 = new System.Windows.Forms.Label();
@@ -286,10 +287,11 @@
             this.Controls.Add(this.Enviar);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Resultado2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Resultado2";
+            this.Text = "2 Variáveis - Resultado";
             this.Load += new System.EventHandler(this.Resultado2_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

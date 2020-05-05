@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.button1 = new System.Windows.Forms.Button();
             this.rbp = new System.Windows.Forms.RadioButton();
             this.rbq = new System.Windows.Forms.RadioButton();
@@ -281,10 +282,11 @@
             this.Controls.Add(this.GrupoPrimeiraPreposicao);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form2";
+            this.Text = "Calculadora - 2 Variáveis";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.GrupoPrimeiraPreposicao.ResumeLayout(false);
             this.GrupoPrimeiraPreposicao.PerformLayout();

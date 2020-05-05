@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Continuar2));
             this.Enviar = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.srbp = new System.Windows.Forms.RadioButton();
@@ -214,10 +215,11 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.Voltar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Continuar2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Continuar2";
+            this.Text = "2 Variáveis - Continuar";
             this.Load += new System.EventHandler(this.Continuar2_Load);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();

@@ -243,7 +243,7 @@
             this.MaximizeBox = false;
             this.Name = "Continuar3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Continuar3";
+            this.Text = "3 Variáveis - Continuar";
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
