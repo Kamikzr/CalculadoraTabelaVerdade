@@ -33,5 +33,20 @@ namespace CalculadoraTabelaVerdade
         {
 
         }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GrupoPrimeiraPreposicao_Enter(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Enviar_Click(object sender, EventArgs e)
+        {
+
+        }
     } 
 }
