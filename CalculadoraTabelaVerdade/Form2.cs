@@ -23,5 +23,15 @@ namespace CalculadoraTabelaVerdade
             MainMenu.Show();
             this.Hide();
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton11_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     } 
 }

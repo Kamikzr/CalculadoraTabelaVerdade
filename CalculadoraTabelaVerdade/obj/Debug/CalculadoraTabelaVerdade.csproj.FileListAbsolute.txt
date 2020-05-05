@@ -11,3 +11,16 @@ C:\Users\raul_\Desktop\Faculdade\Tarefas\Matematica\CalculadoraTabelaVerdade\Cal
 C:\Users\raul_\Desktop\Faculdade\Tarefas\Matematica\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Form2.resources
 C:\Users\raul_\Desktop\Faculdade\Tarefas\Matematica\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Form3.resources
 C:\Users\raul_\Desktop\Faculdade\Tarefas\Matematica\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Form4.resources
+C:\Users\raul_\Documents\GitHub\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\bin\Debug\CalculadoraTabelaVerdade.exe.config
+C:\Users\raul_\Documents\GitHub\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\bin\Debug\CalculadoraTabelaVerdade.exe
+C:\Users\raul_\Documents\GitHub\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\bin\Debug\CalculadoraTabelaVerdade.pdb
+C:\Users\raul_\Documents\GitHub\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.csprojAssemblyReference.cache
+C:\Users\raul_\Documents\GitHub\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Form1.resources
+C:\Users\raul_\Documents\GitHub\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Form2.resources
+C:\Users\raul_\Documents\GitHub\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Form3.resources
+C:\Users\raul_\Documents\GitHub\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Form4.resources
+C:\Users\raul_\Documents\GitHub\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Properties.Resources.resources
+C:\Users\raul_\Documents\GitHub\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.csproj.GenerateResource.cache
+C:\Users\raul_\Documents\GitHub\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.csproj.CoreCompileInputs.cache
+C:\Users\raul_\Documents\GitHub\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.exe
+C:\Users\raul_\Documents\GitHub\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.pdb
