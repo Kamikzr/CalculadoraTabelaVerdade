@@ -12,6 +12,9 @@ namespace CalculadoraTabelaVerdade
 {
     public partial class Form2 : Form
     {
+        public static string[] possibility1 = new string[4];
+        public static string[] possibility2 = new string[4];
+        public static string[] result1Return = new string[4];
         public static string condition1, condition2, stringOperators, condition1value, condition2value;
         public Form2()
         {
@@ -47,7 +50,7 @@ namespace CalculadoraTabelaVerdade
 
         private void Enviar_Click(object sender, EventArgs e)
         {
-            string[] possibility1 = new string[4];
+            
             if (rbp.Checked)
             {
                 for (int i = 0; i < 4; i++)
@@ -85,7 +88,7 @@ namespace CalculadoraTabelaVerdade
             }
 
             //Possibilidade dois
-            string[] possibility2 = new string[4];
+            
             if (srbp.Checked)
             {
                 for (int i = 0; i < 4; i++)
@@ -124,7 +127,7 @@ namespace CalculadoraTabelaVerdade
 
             //Calculando Resultados
 
-            string[] result1Return = new string[4];
+            
             if (rbConjuncao.Checked)
             {
                 for (int i = 0, j = 0, k = 0; i < LogicalTable.p2.Length; i++, j++, k++)
@@ -179,6 +182,11 @@ namespace CalculadoraTabelaVerdade
                     result1Return[k] = Operations.and(condition1value, condition2value);
                 }
             }
+            var resultado2 = new Resultado2(possibility1);
+            resultado2.Show();
+            this.Hide();
+
+            
         }
     } 
 }
