@@ -31,6 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Continuar3));
             this.Enviar = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.srbr = new System.Windows.Forms.RadioButton();
+            this.srbnr = new System.Windows.Forms.RadioButton();
             this.srbp = new System.Windows.Forms.RadioButton();
             this.srbnp = new System.Windows.Forms.RadioButton();
             this.srbq = new System.Windows.Forms.RadioButton();
@@ -42,8 +44,6 @@
             this.rbDisjuncao = new System.Windows.Forms.RadioButton();
             this.rbConjuncao = new System.Windows.Forms.RadioButton();
             this.Voltar = new System.Windows.Forms.Button();
-            this.srbr = new System.Windows.Forms.RadioButton();
-            this.srbnr = new System.Windows.Forms.RadioButton();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -77,6 +77,28 @@
             this.groupBox3.TabIndex = 13;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Nova proposição";
+            // 
+            // srbr
+            // 
+            this.srbr.AutoSize = true;
+            this.srbr.Location = new System.Drawing.Point(18, 67);
+            this.srbr.Name = "srbr";
+            this.srbr.Size = new System.Drawing.Size(30, 18);
+            this.srbr.TabIndex = 5;
+            this.srbr.TabStop = true;
+            this.srbr.Text = "r";
+            this.srbr.UseVisualStyleBackColor = true;
+            // 
+            // srbnr
+            // 
+            this.srbnr.AutoSize = true;
+            this.srbnr.Location = new System.Drawing.Point(58, 67);
+            this.srbnr.Name = "srbnr";
+            this.srbnr.Size = new System.Drawing.Size(37, 18);
+            this.srbnr.TabIndex = 6;
+            this.srbnr.TabStop = true;
+            this.srbnr.Text = "~r";
+            this.srbnr.UseVisualStyleBackColor = true;
             // 
             // srbp
             // 
@@ -204,28 +226,7 @@
             this.Voltar.TabIndex = 12;
             this.Voltar.Text = "voltar";
             this.Voltar.UseVisualStyleBackColor = false;
-            // 
-            // srbr
-            // 
-            this.srbr.AutoSize = true;
-            this.srbr.Location = new System.Drawing.Point(18, 67);
-            this.srbr.Name = "srbr";
-            this.srbr.Size = new System.Drawing.Size(30, 18);
-            this.srbr.TabIndex = 5;
-            this.srbr.TabStop = true;
-            this.srbr.Text = "r";
-            this.srbr.UseVisualStyleBackColor = true;
-            // 
-            // srbnr
-            // 
-            this.srbnr.AutoSize = true;
-            this.srbnr.Location = new System.Drawing.Point(58, 67);
-            this.srbnr.Name = "srbnr";
-            this.srbnr.Size = new System.Drawing.Size(37, 18);
-            this.srbnr.TabIndex = 6;
-            this.srbnr.TabStop = true;
-            this.srbnr.Text = "~r";
-            this.srbnr.UseVisualStyleBackColor = true;
+            this.Voltar.Click += new System.EventHandler(this.Voltar_Click);
             // 
             // Continuar3
             // 

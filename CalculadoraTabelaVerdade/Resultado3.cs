@@ -21,17 +21,17 @@ namespace CalculadoraTabelaVerdade
         {
             InitializeComponent();
 
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < 8; i++)
             {
                 possibility1[i] = _possibility1[i];
             }
 
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < 8; i++)
             {
                 possibility2[i] = _possibility2[i];
             }
 
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < 8; i++)
             {
                 result3Return[i] = _result3Return[i];
             }
@@ -107,7 +107,7 @@ namespace CalculadoraTabelaVerdade
 
         private void Enviar_Click(object sender, EventArgs e)
         {
-            var Continuar3 = new Continuar2(result3Return, strResult);
+            var Continuar3 = new Continuar3(result3Return, strResult);
             Continuar3.Show();
             this.Hide();
         }

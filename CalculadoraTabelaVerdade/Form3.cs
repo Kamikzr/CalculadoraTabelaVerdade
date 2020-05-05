@@ -96,7 +96,6 @@ namespace CalculadoraTabelaVerdade
 
             // possibility 2
 
-            string[] possibility2 = new string[8];
             if (srbp.Checked)
             {
                 stringPossibility2 = "p";
