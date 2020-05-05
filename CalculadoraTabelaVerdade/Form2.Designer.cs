@@ -35,7 +35,6 @@
             this.rbnp = new System.Windows.Forms.RadioButton();
             this.GrupoPrimeiraPreposicao = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.rbNegacao = new System.Windows.Forms.RadioButton();
             this.rbConjuncao = new System.Windows.Forms.RadioButton();
             this.rbDisjuncao = new System.Windows.Forms.RadioButton();
             this.rbDisjuncaoExclusiva = new System.Windows.Forms.RadioButton();
@@ -132,31 +131,19 @@
             this.groupBox2.Controls.Add(this.rbDisjuncaoExclusiva);
             this.groupBox2.Controls.Add(this.rbDisjuncao);
             this.groupBox2.Controls.Add(this.rbConjuncao);
-            this.groupBox2.Controls.Add(this.rbNegacao);
             this.groupBox2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(151, 40);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(181, 177);
+            this.groupBox2.Size = new System.Drawing.Size(181, 168);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Operador Lógico";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
-            // rbNegacao
-            // 
-            this.rbNegacao.AutoSize = true;
-            this.rbNegacao.Location = new System.Drawing.Point(14, 31);
-            this.rbNegacao.Name = "rbNegacao";
-            this.rbNegacao.Size = new System.Drawing.Size(101, 18);
-            this.rbNegacao.TabIndex = 0;
-            this.rbNegacao.TabStop = true;
-            this.rbNegacao.Text = "~   (Negação)";
-            this.rbNegacao.UseVisualStyleBackColor = true;
-            // 
             // rbConjuncao
             // 
             this.rbConjuncao.AutoSize = true;
-            this.rbConjuncao.Location = new System.Drawing.Point(14, 55);
+            this.rbConjuncao.Location = new System.Drawing.Point(6, 20);
             this.rbConjuncao.Name = "rbConjuncao";
             this.rbConjuncao.Size = new System.Drawing.Size(110, 18);
             this.rbConjuncao.TabIndex = 1;
@@ -167,7 +154,7 @@
             // rbDisjuncao
             // 
             this.rbDisjuncao.AutoSize = true;
-            this.rbDisjuncao.Location = new System.Drawing.Point(14, 79);
+            this.rbDisjuncao.Location = new System.Drawing.Point(6, 44);
             this.rbDisjuncao.Name = "rbDisjuncao";
             this.rbDisjuncao.Size = new System.Drawing.Size(106, 18);
             this.rbDisjuncao.TabIndex = 2;
@@ -178,7 +165,7 @@
             // rbDisjuncaoExclusiva
             // 
             this.rbDisjuncaoExclusiva.AutoSize = true;
-            this.rbDisjuncaoExclusiva.Location = new System.Drawing.Point(14, 102);
+            this.rbDisjuncaoExclusiva.Location = new System.Drawing.Point(6, 67);
             this.rbDisjuncaoExclusiva.Name = "rbDisjuncaoExclusiva";
             this.rbDisjuncaoExclusiva.Size = new System.Drawing.Size(164, 18);
             this.rbDisjuncaoExclusiva.TabIndex = 3;
@@ -189,7 +176,7 @@
             // rbCondicional
             // 
             this.rbCondicional.AutoSize = true;
-            this.rbCondicional.Location = new System.Drawing.Point(14, 126);
+            this.rbCondicional.Location = new System.Drawing.Point(6, 91);
             this.rbCondicional.Name = "rbCondicional";
             this.rbCondicional.Size = new System.Drawing.Size(112, 18);
             this.rbCondicional.TabIndex = 4;
@@ -200,7 +187,7 @@
             // rbBicondicional
             // 
             this.rbBicondicional.AutoSize = true;
-            this.rbBicondicional.Location = new System.Drawing.Point(14, 150);
+            this.rbBicondicional.Location = new System.Drawing.Point(6, 115);
             this.rbBicondicional.Name = "rbBicondicional";
             this.rbBicondicional.Size = new System.Drawing.Size(122, 18);
             this.rbBicondicional.TabIndex = 5;
@@ -322,7 +309,6 @@
         private System.Windows.Forms.RadioButton rbDisjuncaoExclusiva;
         private System.Windows.Forms.RadioButton rbDisjuncao;
         private System.Windows.Forms.RadioButton rbConjuncao;
-        private System.Windows.Forms.RadioButton rbNegacao;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.RadioButton srbp;
         private System.Windows.Forms.RadioButton srbnp;
