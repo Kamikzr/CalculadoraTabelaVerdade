@@ -24,3 +24,15 @@ C:\Users\raul_\Documents\GitHub\CalculadoraTabelaVerdade\CalculadoraTabelaVerdad
 C:\Users\raul_\Documents\GitHub\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.csproj.CoreCompileInputs.cache
 C:\Users\raul_\Documents\GitHub\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.exe
 C:\Users\raul_\Documents\GitHub\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.pdb
+C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\bin\Debug\CalculadoraTabelaVerdade.exe.config
+C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\bin\Debug\CalculadoraTabelaVerdade.exe
+C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\bin\Debug\CalculadoraTabelaVerdade.pdb
+C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.csprojAssemblyReference.cache
+C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Form1.resources
+C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Form2.resources
+C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Form3.resources
+C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Form4.resources
+C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Properties.Resources.resources
+C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.csproj.GenerateResource.cache
+C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.exe
+C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.pdb
