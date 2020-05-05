@@ -52,6 +52,12 @@
     <Compile Include="Continuar2.Designer.cs">
       <DependentUpon>Continuar2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Continuar3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Continuar3.Designer.cs">
+      <DependentUpon>Continuar3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,8 +92,17 @@
     <Compile Include="Resultado2.Designer.cs">
       <DependentUpon>Resultado2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Resultado3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resultado3.Designer.cs">
+      <DependentUpon>Resultado3.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Continuar2.resx">
       <DependentUpon>Continuar2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Continuar3.resx">
+      <DependentUpon>Continuar3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -112,6 +127,9 @@
     </Compile>
     <EmbeddedResource Include="Resultado2.resx">
       <DependentUpon>Resultado2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resultado3.resx">
+      <DependentUpon>Resultado3.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

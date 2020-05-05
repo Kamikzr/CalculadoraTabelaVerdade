@@ -16,6 +16,27 @@ namespace CalculadoraTabelaVerdade
         public static string[] possibility2 = new string[4];
         public static string[] result1Return = new string[4];
         public static string condition1, condition2, stringOperators, condition1value, condition2value, stringPossibility1, stringPossibility2;
+
+        private void Voltar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Continuar2_Load(object sender, EventArgs e)
+        {
+
+        }
+
         public Continuar2(string[] _result1Return, string _stringPossibility1)
         {
             InitializeComponent();

@@ -1,6 +1,6 @@
 ﻿namespace CalculadoraTabelaVerdade
 {
-    partial class Continuar2
+    partial class Continuar3
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Continuar3));
             this.Enviar = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.srbp = new System.Windows.Forms.RadioButton();
@@ -41,6 +42,8 @@
             this.rbDisjuncao = new System.Windows.Forms.RadioButton();
             this.rbConjuncao = new System.Windows.Forms.RadioButton();
             this.Voltar = new System.Windows.Forms.Button();
+            this.srbr = new System.Windows.Forms.RadioButton();
+            this.srbnr = new System.Windows.Forms.RadioButton();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -54,13 +57,15 @@
             this.Enviar.Location = new System.Drawing.Point(257, 157);
             this.Enviar.Name = "Enviar";
             this.Enviar.Size = new System.Drawing.Size(75, 23);
-            this.Enviar.TabIndex = 11;
+            this.Enviar.TabIndex = 15;
             this.Enviar.Text = "enviar";
             this.Enviar.UseVisualStyleBackColor = false;
             this.Enviar.Click += new System.EventHandler(this.Enviar_Click);
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.srbr);
+            this.groupBox3.Controls.Add(this.srbnr);
             this.groupBox3.Controls.Add(this.srbp);
             this.groupBox3.Controls.Add(this.srbnp);
             this.groupBox3.Controls.Add(this.srbq);
@@ -69,15 +74,14 @@
             this.groupBox3.Location = new System.Drawing.Point(199, 36);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(130, 100);
-            this.groupBox3.TabIndex = 9;
+            this.groupBox3.TabIndex = 13;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Nova proposição";
-            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
             // srbp
             // 
             this.srbp.AutoSize = true;
-            this.srbp.Location = new System.Drawing.Point(18, 34);
+            this.srbp.Location = new System.Drawing.Point(18, 19);
             this.srbp.Name = "srbp";
             this.srbp.Size = new System.Drawing.Size(33, 18);
             this.srbp.TabIndex = 1;
@@ -88,7 +92,7 @@
             // srbnp
             // 
             this.srbnp.AutoSize = true;
-            this.srbnp.Location = new System.Drawing.Point(55, 34);
+            this.srbnp.Location = new System.Drawing.Point(55, 19);
             this.srbnp.Name = "srbnp";
             this.srbnp.Size = new System.Drawing.Size(40, 18);
             this.srbnp.TabIndex = 4;
@@ -99,7 +103,7 @@
             // srbq
             // 
             this.srbq.AutoSize = true;
-            this.srbq.Location = new System.Drawing.Point(18, 58);
+            this.srbq.Location = new System.Drawing.Point(18, 43);
             this.srbq.Name = "srbq";
             this.srbq.Size = new System.Drawing.Size(33, 18);
             this.srbq.TabIndex = 2;
@@ -110,7 +114,7 @@
             // srbnq
             // 
             this.srbnq.AutoSize = true;
-            this.srbnq.Location = new System.Drawing.Point(55, 57);
+            this.srbnq.Location = new System.Drawing.Point(58, 43);
             this.srbnq.Name = "srbnq";
             this.srbnq.Size = new System.Drawing.Size(40, 18);
             this.srbnq.TabIndex = 3;
@@ -129,10 +133,9 @@
             this.groupBox2.Location = new System.Drawing.Point(12, 12);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(181, 168);
-            this.groupBox2.TabIndex = 10;
+            this.groupBox2.TabIndex = 14;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Operador Lógico";
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // rbBicondicional
             // 
@@ -198,12 +201,33 @@
             this.Voltar.Location = new System.Drawing.Point(257, 186);
             this.Voltar.Name = "Voltar";
             this.Voltar.Size = new System.Drawing.Size(75, 23);
-            this.Voltar.TabIndex = 8;
+            this.Voltar.TabIndex = 12;
             this.Voltar.Text = "voltar";
             this.Voltar.UseVisualStyleBackColor = false;
-            this.Voltar.Click += new System.EventHandler(this.Voltar_Click);
             // 
-            // Continuar2
+            // srbr
+            // 
+            this.srbr.AutoSize = true;
+            this.srbr.Location = new System.Drawing.Point(18, 67);
+            this.srbr.Name = "srbr";
+            this.srbr.Size = new System.Drawing.Size(30, 18);
+            this.srbr.TabIndex = 5;
+            this.srbr.TabStop = true;
+            this.srbr.Text = "r";
+            this.srbr.UseVisualStyleBackColor = true;
+            // 
+            // srbnr
+            // 
+            this.srbnr.AutoSize = true;
+            this.srbnr.Location = new System.Drawing.Point(58, 67);
+            this.srbnr.Name = "srbnr";
+            this.srbnr.Size = new System.Drawing.Size(37, 18);
+            this.srbnr.TabIndex = 6;
+            this.srbnr.TabStop = true;
+            this.srbnr.Text = "~r";
+            this.srbnr.UseVisualStyleBackColor = true;
+            // 
+            // Continuar3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -214,11 +238,11 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.Voltar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.Name = "Continuar2";
+            this.Name = "Continuar3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Continuar2";
-            this.Load += new System.EventHandler(this.Continuar2_Load);
+            this.Text = "Continuar3";
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -231,6 +255,8 @@
 
         private System.Windows.Forms.Button Enviar;
         private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.RadioButton srbr;
+        private System.Windows.Forms.RadioButton srbnr;
         private System.Windows.Forms.RadioButton srbp;
         private System.Windows.Forms.RadioButton srbnp;
         private System.Windows.Forms.RadioButton srbq;

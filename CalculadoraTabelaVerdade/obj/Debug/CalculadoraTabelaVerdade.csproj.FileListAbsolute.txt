@@ -38,3 +38,5 @@ C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTa
 C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.pdb
 C:\Users\raul_\Documents\GitHub\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Resultado2.resources
 C:\Users\raul_\Documents\GitHub\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Continuar2.resources
+C:\Users\raul_\Documents\GitHub\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Continuar3.resources
+C:\Users\raul_\Documents\GitHub\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Resultado3.resources
