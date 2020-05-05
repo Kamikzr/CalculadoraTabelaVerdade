@@ -13,6 +13,12 @@ namespace CalculadoraTabelaVerdade
     public partial class Form3 : Form
     {
         public static string condition1, condition2, stringOperators, condition1value, condition2value;
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
+
         public Form3()
         {
             InitializeComponent();
@@ -27,107 +33,107 @@ namespace CalculadoraTabelaVerdade
 
         private void Enviar_Click(object sender, EventArgs e)
         {
-            string[] possibility1 = new string[4];
+            string[] possibility1 = new string[8];
             if (rbp.Checked)
             {
-                for (int i = 0; i < 4; i++)
+                for (int i = 0; i < 8; i++)
                 {
-                    possibility1[i] = LogicalTable.p2[i];
+                    possibility1[i] = LogicalTable.p3[i];
                 }
             }
             else if (rbq.Checked)
             {
-                for (int i = 0; i < 4; i++)
+                for (int i = 0; i < 8; i++)
                 {
-                    possibility1[i] = LogicalTable.q2[i];
+                    possibility1[i] = LogicalTable.q3[i];
                 }
             }
             else if (rbnp.Checked)
             {
-                for (int i = 0; i < 4; i++)
+                for (int i = 0; i < 8; i++)
                 {
-                    possibility1[i] = LogicalTable.np2[i];
+                    possibility1[i] = LogicalTable.np3[i];
                 }
             }
             else if (rbnq.Checked)
             {
-                for (int i = 0; i < 4; i++)
+                for (int i = 0; i < 8; i++)
                 {
-                    possibility1[i] = LogicalTable.nq2[i];
+                    possibility1[i] = LogicalTable.nq3[i];
                 }
             }
             else if (rbr.Checked)
             {
-                for (int i = 0; i < 4; i++)
+                for (int i = 0; i < 8; i++)
                 {
-                    possibility1[i] = LogicalTable.r2[i];
+                    possibility1[i] = LogicalTable.r3[i];
                 }
             }
             else if (rbnr.Checked)
             {
-                for (int i = 0; i < 4; i++)
+                for (int i = 0; i < 8; i++)
                 {
-                    possibility1[i] = LogicalTable.nr2[i];
+                    possibility1[i] = LogicalTable.nr3[i];
                 }
             }
             else
             {
-                for (int i = 0; i < 4; i++)
+                for (int i = 0; i < 8; i++)
                 {
-                    possibility1[i] = LogicalTable.p2[i];
+                    possibility1[i] = LogicalTable.p3[i];
                 }
             }
 
             // possibility 2
 
-            string[] possibility2 = new string[4];
+            string[] possibility2 = new string[8];
             if (srbp.Checked)
             {
-                for (int i = 0; i < 4; i++)
+                for (int i = 0; i < 8; i++)
                 {
-                    possibility2[i] = LogicalTable.p2[i];
+                    possibility2[i] = LogicalTable.p3[i];
                 }
             }
             else if (srbq.Checked)
             {
-                for (int i = 0; i < 4; i++)
+                for (int i = 0; i < 8; i++)
                 {
-                    possibility2[i] = LogicalTable.q2[i];
+                    possibility2[i] = LogicalTable.q3[i];
                 }
             }
             else if (srbnp.Checked)
             {
-                for (int i = 0; i < 4; i++)
+                for (int i = 0; i < 8; i++)
                 {
-                    possibility2[i] = LogicalTable.np2[i];
+                    possibility2[i] = LogicalTable.np3[i];
                 }
             }
             else if (srbnq.Checked)
             {
-                for (int i = 0; i < 4; i++)
+                for (int i = 0; i < 8; i++)
                 {
-                    possibility2[i] = LogicalTable.nq2[i];
+                    possibility2[i] = LogicalTable.nq3[i];
                 }
             }
             else if (srbr.Checked)
             {
-                for (int i = 0; i < 4; i++)
+                for (int i = 0; i < 8; i++)
                 {
-                    possibility2[i] = LogicalTable.r2[i];
+                    possibility2[i] = LogicalTable.r3[i];
                 }
             }
             else if (srbnr.Checked)
             {
-                for (int i = 0; i < 4; i++)
+                for (int i = 0; i < 8; i++)
                 {
-                    possibility2[i] = LogicalTable.nr2[i];
+                    possibility2[i] = LogicalTable.nr3[i];
                 }
             }
             else
             {
-                for (int i = 0; i < 4; i++)
+                for (int i = 0; i < 8; i++)
                 {
-                    possibility2[i] = LogicalTable.p2[i];
+                    possibility2[i] = LogicalTable.p3[i];
                 }
             }
 

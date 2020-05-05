@@ -36,3 +36,4 @@ C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTa
 C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.csproj.GenerateResource.cache
 C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.exe
 C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.pdb
+C:\Users\raul_\Documents\GitHub\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Resultado2.resources
