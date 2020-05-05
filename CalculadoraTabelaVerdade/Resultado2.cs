@@ -15,13 +15,23 @@ namespace CalculadoraTabelaVerdade
         public static string[] possibility1 = new string[4];
         public static string[] possibility2 = new string[4];
         public static string[] result1Return = new string[4];
-        public Resultado2(string[] _possibility1)
+        public Resultado2(string[] _possibility1, string[] _possibility2, string[] _result1Return)
         {
             InitializeComponent();
 
             for (int i = 0; i < 4; i++)
             {
                 possibility1[i] = _possibility1[i];
+            }
+
+            for (int i = 0; i < 4; i++)
+            {
+                possibility2[i] = _possibility2[i];
+            }
+
+            for (int i = 0; i < 4; i++)
+            {
+                result1Return[i] = _result1Return[i];
             }
 
             ShowResult();
@@ -34,10 +44,77 @@ namespace CalculadoraTabelaVerdade
 
         public void ShowResult()
         {
-            label1.Text = possibility1[0];
-            label2.Text = possibility1[1];
-            label3.Text = possibility1[2];
-            label4.Text = possibility1[3];
+            lblP11.Text = possibility1[0];
+            lblP12.Text = possibility1[1];
+            lblP13.Text = possibility1[2];
+            lblP14.Text = possibility1[3];
+
+            lblP21.Text = possibility2[0];
+            lblP22.Text = possibility2[1];
+            lblP23.Text = possibility2[2];
+            lblP24.Text = possibility2[3];
+
+            lblR1.Text = result1Return[0];
+            lblR2.Text = result1Return[1];
+            lblR3.Text = result1Return[2];
+            lblR4.Text = result1Return[3];
+
+        }
+
+        private void Resultado2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var Form1 = new Form1();
+            Form1.Show();
+            this.Hide();
+        }
+
+        private void Enviar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblNome2_Click(object sender, EventArgs e)
+        {
 
         }
     }

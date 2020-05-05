@@ -182,7 +182,7 @@ namespace CalculadoraTabelaVerdade
                     result1Return[k] = Operations.and(condition1value, condition2value);
                 }
             }
-            var resultado2 = new Resultado2(possibility1);
+            var resultado2 = new Resultado2(possibility1, possibility2, result1Return);
             resultado2.Show();
             this.Hide();
 
