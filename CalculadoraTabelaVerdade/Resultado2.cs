@@ -75,7 +75,9 @@ namespace CalculadoraTabelaVerdade
 
         private void Enviar_Click(object sender, EventArgs e)
         {
-
+            var Continuar2 = new Continuar2(result1Return);
+            Continuar2.Show();
+            this.Hide();
         }
 
         private void label4_Click(object sender, EventArgs e)

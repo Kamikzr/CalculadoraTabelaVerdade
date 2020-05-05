@@ -10,90 +10,26 @@ using System.Windows.Forms;
 
 namespace CalculadoraTabelaVerdade
 {
-    public partial class Form2 : Form
+    public partial class Continuar2 : Form
     {
         public static string[] possibility1 = new string[4];
         public static string[] possibility2 = new string[4];
         public static string[] result1Return = new string[4];
         public static string condition1, condition2, stringOperators, condition1value, condition2value;
-        public Form2()
+        public Continuar2(string[] _result1Return)
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            var MainMenu = new Form1();
-            MainMenu.Show();
-            this.Hide();
-        }
-
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox3_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton11_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox2_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void GrupoPrimeiraPreposicao_Enter(object sender, EventArgs e)
-        {
-            
+            for (int i = 0; i < 4; i++)
+            {
+                possibility1[i] = _result1Return[i];
+            }
         }
 
         private void Enviar_Click(object sender, EventArgs e)
         {
             
-            if (rbp.Checked)
-            {
-                for (int i = 0; i < 4; i++)
-                {
-                    possibility1[i] = LogicalTable.p2[i];
-                }
-            }
-            else if (rbq.Checked)
-            {
-                for (int i = 0; i < 4; i++)
-                {
-                    possibility1[i] = LogicalTable.q2[i];
-                }
-            }
-            else if (rbnp.Checked)
-            {
-                for (int i = 0; i < 4; i++)
-                {
-                    possibility1[i] = LogicalTable.np2[i];
-                }
-            }
-            else if (rbnq.Checked)
-            {
-                for (int i = 0; i < 4; i++)
-                {
-                    possibility1[i] = LogicalTable.nq2[i];
-                }
-            }
-            else
-            {
-                for (int i = 0; i < 4; i++)
-                {
-                    possibility1[i] = LogicalTable.p2[i];
-                }
-            }
-
             //Possibilidade dois
-            
+
             if (srbp.Checked)
             {
                 for (int i = 0; i < 4; i++)
@@ -132,7 +68,7 @@ namespace CalculadoraTabelaVerdade
 
             //Calculando Resultados
 
-            
+
             if (rbConjuncao.Checked)
             {
                 for (int i = 0, j = 0, k = 0; i < LogicalTable.p2.Length; i++, j++, k++)
@@ -190,8 +126,6 @@ namespace CalculadoraTabelaVerdade
             var resultado2 = new Resultado2(possibility1, possibility2, result1Return);
             resultado2.Show();
             this.Hide();
-
-            
         }
-    } 
+    }
 }

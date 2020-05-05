@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Continuar2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Continuar2.Designer.cs">
+      <DependentUpon>Continuar2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     <Compile Include="Resultado2.Designer.cs">
       <DependentUpon>Resultado2.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Continuar2.resx">
+      <DependentUpon>Continuar2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

@@ -35,11 +35,11 @@
             this.rbnp = new System.Windows.Forms.RadioButton();
             this.GrupoPrimeiraPreposicao = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.rbConjuncao = new System.Windows.Forms.RadioButton();
-            this.rbDisjuncao = new System.Windows.Forms.RadioButton();
-            this.rbDisjuncaoExclusiva = new System.Windows.Forms.RadioButton();
-            this.rbCondicional = new System.Windows.Forms.RadioButton();
             this.rbBicondicional = new System.Windows.Forms.RadioButton();
+            this.rbCondicional = new System.Windows.Forms.RadioButton();
+            this.rbDisjuncaoExclusiva = new System.Windows.Forms.RadioButton();
+            this.rbDisjuncao = new System.Windows.Forms.RadioButton();
+            this.rbConjuncao = new System.Windows.Forms.RadioButton();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.srbp = new System.Windows.Forms.RadioButton();
             this.srbnp = new System.Windows.Forms.RadioButton();
@@ -140,38 +140,16 @@
             this.groupBox2.Text = "Operador Lógico";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
-            // rbConjuncao
+            // rbBicondicional
             // 
-            this.rbConjuncao.AutoSize = true;
-            this.rbConjuncao.Location = new System.Drawing.Point(6, 20);
-            this.rbConjuncao.Name = "rbConjuncao";
-            this.rbConjuncao.Size = new System.Drawing.Size(110, 18);
-            this.rbConjuncao.TabIndex = 1;
-            this.rbConjuncao.TabStop = true;
-            this.rbConjuncao.Text = "^   (Conjunção)";
-            this.rbConjuncao.UseVisualStyleBackColor = true;
-            // 
-            // rbDisjuncao
-            // 
-            this.rbDisjuncao.AutoSize = true;
-            this.rbDisjuncao.Location = new System.Drawing.Point(6, 44);
-            this.rbDisjuncao.Name = "rbDisjuncao";
-            this.rbDisjuncao.Size = new System.Drawing.Size(106, 18);
-            this.rbDisjuncao.TabIndex = 2;
-            this.rbDisjuncao.TabStop = true;
-            this.rbDisjuncao.Text = "v   (Disjunção)";
-            this.rbDisjuncao.UseVisualStyleBackColor = true;
-            // 
-            // rbDisjuncaoExclusiva
-            // 
-            this.rbDisjuncaoExclusiva.AutoSize = true;
-            this.rbDisjuncaoExclusiva.Location = new System.Drawing.Point(6, 67);
-            this.rbDisjuncaoExclusiva.Name = "rbDisjuncaoExclusiva";
-            this.rbDisjuncaoExclusiva.Size = new System.Drawing.Size(164, 18);
-            this.rbDisjuncaoExclusiva.TabIndex = 3;
-            this.rbDisjuncaoExclusiva.TabStop = true;
-            this.rbDisjuncaoExclusiva.Text = "v_ (Disjunção Exclusiva)";
-            this.rbDisjuncaoExclusiva.UseVisualStyleBackColor = true;
+            this.rbBicondicional.AutoSize = true;
+            this.rbBicondicional.Location = new System.Drawing.Point(6, 115);
+            this.rbBicondicional.Name = "rbBicondicional";
+            this.rbBicondicional.Size = new System.Drawing.Size(122, 18);
+            this.rbBicondicional.TabIndex = 5;
+            this.rbBicondicional.TabStop = true;
+            this.rbBicondicional.Text = "↔ (Bicondicional)";
+            this.rbBicondicional.UseVisualStyleBackColor = true;
             // 
             // rbCondicional
             // 
@@ -184,16 +162,38 @@
             this.rbCondicional.Text = "→ (Condicional)";
             this.rbCondicional.UseVisualStyleBackColor = true;
             // 
-            // rbBicondicional
+            // rbDisjuncaoExclusiva
             // 
-            this.rbBicondicional.AutoSize = true;
-            this.rbBicondicional.Location = new System.Drawing.Point(6, 115);
-            this.rbBicondicional.Name = "rbBicondicional";
-            this.rbBicondicional.Size = new System.Drawing.Size(122, 18);
-            this.rbBicondicional.TabIndex = 5;
-            this.rbBicondicional.TabStop = true;
-            this.rbBicondicional.Text = "↔ (Bicondicional)";
-            this.rbBicondicional.UseVisualStyleBackColor = true;
+            this.rbDisjuncaoExclusiva.AutoSize = true;
+            this.rbDisjuncaoExclusiva.Location = new System.Drawing.Point(6, 67);
+            this.rbDisjuncaoExclusiva.Name = "rbDisjuncaoExclusiva";
+            this.rbDisjuncaoExclusiva.Size = new System.Drawing.Size(164, 18);
+            this.rbDisjuncaoExclusiva.TabIndex = 3;
+            this.rbDisjuncaoExclusiva.TabStop = true;
+            this.rbDisjuncaoExclusiva.Text = "v_ (Disjunção Exclusiva)";
+            this.rbDisjuncaoExclusiva.UseVisualStyleBackColor = true;
+            // 
+            // rbDisjuncao
+            // 
+            this.rbDisjuncao.AutoSize = true;
+            this.rbDisjuncao.Location = new System.Drawing.Point(6, 44);
+            this.rbDisjuncao.Name = "rbDisjuncao";
+            this.rbDisjuncao.Size = new System.Drawing.Size(106, 18);
+            this.rbDisjuncao.TabIndex = 2;
+            this.rbDisjuncao.TabStop = true;
+            this.rbDisjuncao.Text = "v   (Disjunção)";
+            this.rbDisjuncao.UseVisualStyleBackColor = true;
+            // 
+            // rbConjuncao
+            // 
+            this.rbConjuncao.AutoSize = true;
+            this.rbConjuncao.Location = new System.Drawing.Point(6, 20);
+            this.rbConjuncao.Name = "rbConjuncao";
+            this.rbConjuncao.Size = new System.Drawing.Size(110, 18);
+            this.rbConjuncao.TabIndex = 1;
+            this.rbConjuncao.TabStop = true;
+            this.rbConjuncao.Text = "^   (Conjunção)";
+            this.rbConjuncao.UseVisualStyleBackColor = true;
             // 
             // groupBox3
             // 
@@ -208,6 +208,7 @@
             this.groupBox3.TabIndex = 6;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Segunda proposição";
+            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
             // srbp
             // 
