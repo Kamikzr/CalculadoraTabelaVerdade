@@ -15,7 +15,8 @@ namespace CalculadoraTabelaVerdade
         public static string[] possibility1 = new string[4];
         public static string[] possibility2 = new string[4];
         public static string[] result1Return = new string[4];
-        public Resultado2(string[] _possibility1, string[] _possibility2, string[] _result1Return)
+        public static string stringOperators, stringPossibility1, stringPossibility2, strResult;
+        public Resultado2(string[] _possibility1, string[] _possibility2, string[] _result1Return, string _stringOperators, string _stringPossibility1, string _stringPossibility2)
         {
             InitializeComponent();
 
@@ -33,6 +34,10 @@ namespace CalculadoraTabelaVerdade
             {
                 result1Return[i] = _result1Return[i];
             }
+
+            stringOperators = _stringOperators;
+            stringPossibility1 = _stringPossibility1;
+            stringPossibility2 = _stringPossibility2;
 
             ShowResult();
         }
@@ -59,6 +64,10 @@ namespace CalculadoraTabelaVerdade
             lblR3.Text = result1Return[2];
             lblR4.Text = result1Return[3];
 
+            lblNome1.Text = stringPossibility1;
+            lblNome2.Text = stringPossibility2;
+            strResult = "(" + stringPossibility1 + " " + stringOperators + " " + stringPossibility2 + ")";
+            lblNomeResult.Text = strResult;
         }
 
         private void Resultado2_Load(object sender, EventArgs e)
@@ -75,7 +84,7 @@ namespace CalculadoraTabelaVerdade
 
         private void Enviar_Click(object sender, EventArgs e)
         {
-            var Continuar2 = new Continuar2(result1Return);
+            var Continuar2 = new Continuar2(result1Return, strResult);
             Continuar2.Show();
             this.Hide();
         }

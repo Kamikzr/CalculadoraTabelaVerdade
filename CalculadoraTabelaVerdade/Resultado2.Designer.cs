@@ -144,6 +144,7 @@
             this.lblNome1.Size = new System.Drawing.Size(75, 12);
             this.lblNome1.TabIndex = 4;
             this.lblNome1.Text = "pProposicao";
+            this.lblNome1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblNome1.Click += new System.EventHandler(this.label5_Click);
             // 
             // groupBox2
@@ -169,6 +170,7 @@
             this.lblNome2.Size = new System.Drawing.Size(74, 12);
             this.lblNome2.TabIndex = 4;
             this.lblNome2.Text = "sProposicao";
+            this.lblNome2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblNome2.Click += new System.EventHandler(this.lblNome2_Click);
             // 
             // lblP24
@@ -233,6 +235,7 @@
             this.lblNomeResult.Size = new System.Drawing.Size(63, 12);
             this.lblNomeResult.TabIndex = 4;
             this.lblNomeResult.Text = "resultProp";
+            this.lblNomeResult.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblR4
             // 
