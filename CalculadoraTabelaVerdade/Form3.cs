@@ -32,49 +32,49 @@ namespace CalculadoraTabelaVerdade
             {
                 for (int i = 0; i < 4; i++)
                 {
-                    possibility1[i] = LogicalTable.p2[i];
+                    possibility1[i] = LogicalTable.p3[i];
                 }
             }
             else if (rbq.Checked)
             {
                 for (int i = 0; i < 4; i++)
                 {
-                    possibility1[i] = LogicalTable.q2[i];
+                    possibility1[i] = LogicalTable.q3[i];
                 }
             }
             else if (rbnp.Checked)
             {
                 for (int i = 0; i < 4; i++)
                 {
-                    possibility1[i] = LogicalTable.np2[i];
+                    possibility1[i] = LogicalTable.np3[i];
                 }
             }
             else if (rbnq.Checked)
             {
                 for (int i = 0; i < 4; i++)
                 {
-                    possibility1[i] = LogicalTable.nq2[i];
+                    possibility1[i] = LogicalTable.nq3[i];
                 }
             }
             else if (rbr.Checked)
             {
                 for (int i = 0; i < 4; i++)
                 {
-                    possibility1[i] = LogicalTable.r2[i];
+                    possibility1[i] = LogicalTable.r3[i];
                 }
             }
             else if (rbnr.Checked)
             {
                 for (int i = 0; i < 4; i++)
                 {
-                    possibility1[i] = LogicalTable.nr2[i];
+                    possibility1[i] = LogicalTable.nr3[i];
                 }
             }
             else
             {
                 for (int i = 0; i < 4; i++)
                 {
-                    possibility1[i] = LogicalTable.p2[i];
+                    possibility1[i] = LogicalTable.p3[i];
                 }
             }
 
@@ -85,49 +85,49 @@ namespace CalculadoraTabelaVerdade
             {
                 for (int i = 0; i < 4; i++)
                 {
-                    possibility2[i] = LogicalTable.p2[i];
+                    possibility2[i] = LogicalTable.p3[i];
                 }
             }
             else if (srbq.Checked)
             {
                 for (int i = 0; i < 4; i++)
                 {
-                    possibility2[i] = LogicalTable.q2[i];
+                    possibility2[i] = LogicalTable.q3[i];
                 }
             }
             else if (srbnp.Checked)
             {
                 for (int i = 0; i < 4; i++)
                 {
-                    possibility2[i] = LogicalTable.np2[i];
+                    possibility2[i] = LogicalTable.np3[i];
                 }
             }
             else if (srbnq.Checked)
             {
                 for (int i = 0; i < 4; i++)
                 {
-                    possibility2[i] = LogicalTable.nq2[i];
+                    possibility2[i] = LogicalTable.nq3[i];
                 }
             }
             else if (srbr.Checked)
             {
                 for (int i = 0; i < 4; i++)
                 {
-                    possibility2[i] = LogicalTable.r2[i];
+                    possibility2[i] = LogicalTable.r3[i];
                 }
             }
             else if (srbnr.Checked)
             {
                 for (int i = 0; i < 4; i++)
                 {
-                    possibility2[i] = LogicalTable.nr2[i];
+                    possibility2[i] = LogicalTable.nr3[i];
                 }
             }
             else
             {
                 for (int i = 0; i < 4; i++)
                 {
-                    possibility2[i] = LogicalTable.p2[i];
+                    possibility2[i] = LogicalTable.p3[i];
                 }
             }
 
