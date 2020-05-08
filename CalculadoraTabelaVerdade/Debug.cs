@@ -9,29 +9,29 @@ namespace CalculadoraTabelaVerdade
     public static class Debug
     {
         private static int LastIndexOfInstruction;
-        private static double Instruction = 1f;
+        private static double NumberOfInstruction = 1f;
         private static Random GenerateInstruction = new Random();
-        private static List<Log> LastInstructions = new List<Log>();
+        private static List<Log> Instructions = new List<Log>();
         public static void Logger(params string[] _args)
         {
-            LastIndexOfInstruction = LastInstructions.Count;
+            LastIndexOfInstruction = Instructions.Count;
             foreach (string arg in _args)
             {
-                Instruction += GenerateInstruction.NextDouble();
-                LastInstructions.Add(new Log() { LogString = arg, LogInstruct = Instruction });
+                NumberOfInstruction += GenerateInstruction.NextDouble();
+                Instructions.Add(new Log() { LogString = arg, LogInstruct = NumberOfInstruction });
                 if(LastIndexOfInstruction != 0)
                 {
-                    if (LastInstructions[LastIndexOfInstruction].LogString != LastInstructions[LastIndexOfInstruction - 1].LogString)
-                        Console.WriteLine("[{0:N2}] Logged |  {1}", Instruction, arg);
+                    if (Instructions[LastIndexOfInstruction].LogString != Instructions[LastIndexOfInstruction - 1].LogString)
+                        Console.WriteLine("[{0:N2}] Logged |  {1}", NumberOfInstruction, arg);
                 }
                 else if(LastIndexOfInstruction == 0)
-                    Console.WriteLine("[{0:N2}] Logged |  {1}", Instruction, arg);
+                    Console.WriteLine("[{0:N2}] Logged |  {1}", NumberOfInstruction, arg);
             }
         }
 
         public static void ShowLogs()
         {
-            foreach (Log AlocatedLog in LastInstructions)
+            foreach (Log AlocatedLog in Instructions)
                 Console.WriteLine(AlocatedLog);
         }
     }
