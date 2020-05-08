@@ -30,7 +30,6 @@ C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTa
 C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Form1.resources
 C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Form2.resources
 C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Form3.resources
-C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Form4.resources
 C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Properties.Resources.resources
 C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.csproj.GenerateResource.cache
 C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.exe
@@ -43,3 +42,12 @@ C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTa
 C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Continuar3.resources
 C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Resultado2.resources
 C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Resultado3.resources
+C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Calculator.Calculator.resources
+C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Root.resources
+C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Area.Area.resources
+C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Average.Average.resources
+C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.BMI.BMI.resources
+C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Converters.Converters.resources
+C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Interest.Interest.resources
+C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.Matrix.Matrix.resources
+C:\Users\Murilo\Desktop\Nova pasta\GITHUB\CalculadoraTabelaVerdade\CalculadoraTabelaVerdade\obj\Debug\CalculadoraTabelaVerdade.MultTable.MultTable.resources

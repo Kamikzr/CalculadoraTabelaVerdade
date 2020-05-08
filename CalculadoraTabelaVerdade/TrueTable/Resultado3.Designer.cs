@@ -131,6 +131,7 @@
             this.lblNomeResult.TabIndex = 4;
             this.lblNomeResult.Text = "resultProp";
             this.lblNomeResult.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblNomeResult.Click += new System.EventHandler(this.lblNomeResult_Click);
             // 
             // lblR4
             // 
