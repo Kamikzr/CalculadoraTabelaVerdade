@@ -8,17 +8,24 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using System.Globalization;
+
 namespace CalculadoraTabelaVerdade.Calculator
 {
     public partial class Calculator : Form
     {
-        Decimal Number;
-        Decimal Result;
-        Decimal LastNumber;
+        Double Number;
+        Double Result;
+        Double LastNumber;
         String Operator;
         public Calculator()
         {
             InitializeComponent();
+
+            Label1.Text = "Value1";
+            Label2.Text = "Value2";
+            Label3.Text = "Value3";
+            Label4.Text = "Value4";
 
             Clear();
         }
@@ -32,27 +39,18 @@ namespace CalculadoraTabelaVerdade.Calculator
             TextBoxResult.Text = null;
         }
 
-        private void ButtonBack_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-        }
-
-        private void ButtonClear_Click(object sender, EventArgs e)
-        {
-            Clear();
-        }
-
         private void ButtonDot_Click(object sender, EventArgs e)
         {
-
+            TextBoxResult.Text = TextBoxResult.Text + ",";
         }
 
         private void ButtonPlus_Click(object sender, EventArgs e)
         {
             try
             {
+
                 Operator = "+";
-                LastNumber = Convert.ToDecimal(TextBoxResult.Text);
+                LastNumber = Convert.ToDouble(TextBoxResult.Text);
                 TextBoxResult.Text = null;
             }
             catch (Exception Error)
@@ -66,7 +64,7 @@ namespace CalculadoraTabelaVerdade.Calculator
             try
             {
                 Operator = "-";
-                LastNumber = Convert.ToDecimal(TextBoxResult.Text);
+                LastNumber = Convert.ToDouble(TextBoxResult.Text);
                 TextBoxResult.Text = null;
             }
             catch (Exception Error)
@@ -80,7 +78,7 @@ namespace CalculadoraTabelaVerdade.Calculator
             try
             {
                 Operator = "*";
-                LastNumber = Convert.ToDecimal(TextBoxResult.Text);
+                LastNumber = Convert.ToDouble(TextBoxResult.Text);
                 TextBoxResult.Text = null;
             }
             catch (Exception Error)
@@ -94,7 +92,7 @@ namespace CalculadoraTabelaVerdade.Calculator
             try
             {
                 Operator = "/";
-                LastNumber = Convert.ToDecimal(TextBoxResult.Text);
+                LastNumber = Convert.ToDouble(TextBoxResult.Text);
                 TextBoxResult.Text = null;
             }
             catch (Exception Error)
@@ -107,7 +105,7 @@ namespace CalculadoraTabelaVerdade.Calculator
         {
             try
             {
-                Number = Convert.ToDecimal(TextBoxResult.Text);
+                Number = Convert.ToDouble(TextBoxResult.Text);
                 if (Operator == "+")
                 {
                     try
@@ -223,6 +221,76 @@ namespace CalculadoraTabelaVerdade.Calculator
         private void Button9_Click(object sender, EventArgs e)
         {
             TextBoxResult.Text = TextBoxResult.Text + "9";
+        }
+
+        private void ButtonBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
+
+        private void ButtonClear_Click(object sender, EventArgs e)
+        {
+            Clear();
+        }
+
+        private void ButtonInsert1_Click(object sender, EventArgs e)
+        {
+            if(TextBoxResult.Text != "")
+            {
+                Label1.Text = Convert.ToString(TextBoxResult.Text);
+                TextBoxResult.Text = null;
+            }
+        }
+
+        private void ButtonInsert2_Click(object sender, EventArgs e)
+        {
+            if (TextBoxResult.Text != "")
+            {
+                Label2.Text = Convert.ToString(TextBoxResult.Text);
+                TextBoxResult.Text = null;
+            }
+        }
+
+        private void ButtonInsert3_Click(object sender, EventArgs e)
+        {
+            if (TextBoxResult.Text != "")
+            {
+                Label3.Text = Convert.ToString(TextBoxResult.Text);
+                TextBoxResult.Text = null;
+            }
+        }
+
+        private void ButtonInsert4_Click(object sender, EventArgs e)
+        {
+            if (TextBoxResult.Text != "")
+            {
+                Label4.Text = Convert.ToString(TextBoxResult.Text);
+                TextBoxResult.Text = null;
+            }
+        }
+
+        private void ButtonReturn1_Click(object sender, EventArgs e)
+        {
+            if(Label1.Text != "Value1")
+                TextBoxResult.Text = Label1.Text;
+        }
+
+        private void ButtonReturn2_Click(object sender, EventArgs e)
+        {
+            if (Label2.Text != "Value2")
+                TextBoxResult.Text = Label2.Text;
+        }
+
+        private void ButtonReturn3_Click(object sender, EventArgs e)
+        {
+            if (Label3.Text != "Value3")
+                TextBoxResult.Text = Label3.Text;
+        }
+
+        private void ButtonReturn4_Click(object sender, EventArgs e)
+        {
+            if (Label4.Text != "Value4")
+                TextBoxResult.Text = Label4.Text;
         }
     }
 }

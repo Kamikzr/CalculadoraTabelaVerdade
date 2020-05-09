@@ -49,6 +49,7 @@
             // LabelVersions
             // 
             LabelVersions.AutoSize = true;
+            LabelVersions.Cursor = System.Windows.Forms.Cursors.Hand;
             LabelVersions.Font = new System.Drawing.Font("Goudy Stout", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             LabelVersions.Location = new System.Drawing.Point(439, 361);
             LabelVersions.Name = "LabelVersions";
@@ -60,6 +61,7 @@
             // LabelCredits
             // 
             this.LabelCredits.AutoSize = true;
+            this.LabelCredits.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LabelCredits.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabelCredits.Location = new System.Drawing.Point(2, 320);
             this.LabelCredits.Name = "LabelCredits";
@@ -71,6 +73,7 @@
             // ButtonAverage
             // 
             this.ButtonAverage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(64)))), ((int)(((byte)(66)))));
+            this.ButtonAverage.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonAverage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonAverage.Location = new System.Drawing.Point(182, 80);
             this.ButtonAverage.Name = "ButtonAverage";
@@ -83,6 +86,7 @@
             // ButtonCalculator
             // 
             this.ButtonCalculator.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(64)))), ((int)(((byte)(66)))));
+            this.ButtonCalculator.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonCalculator.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonCalculator.Location = new System.Drawing.Point(37, 80);
             this.ButtonCalculator.Name = "ButtonCalculator";
@@ -95,6 +99,7 @@
             // LabelName
             // 
             this.LabelName.AutoSize = true;
+            this.LabelName.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LabelName.Font = new System.Drawing.Font("Arial Rounded MT Bold", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabelName.Location = new System.Drawing.Point(63, 9);
             this.LabelName.Name = "LabelName";
@@ -106,6 +111,7 @@
             // ButtonMatrix
             // 
             this.ButtonMatrix.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(64)))), ((int)(((byte)(66)))));
+            this.ButtonMatrix.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonMatrix.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonMatrix.Location = new System.Drawing.Point(327, 80);
             this.ButtonMatrix.Name = "ButtonMatrix";
@@ -118,6 +124,7 @@
             // ButtonConverters
             // 
             this.ButtonConverters.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(64)))), ((int)(((byte)(66)))));
+            this.ButtonConverters.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonConverters.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonConverters.Location = new System.Drawing.Point(327, 136);
             this.ButtonConverters.Name = "ButtonConverters";
@@ -130,6 +137,7 @@
             // ButtonInterest
             // 
             this.ButtonInterest.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(64)))), ((int)(((byte)(66)))));
+            this.ButtonInterest.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonInterest.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonInterest.Location = new System.Drawing.Point(182, 136);
             this.ButtonInterest.Name = "ButtonInterest";
@@ -142,6 +150,7 @@
             // ButtonArea
             // 
             this.ButtonArea.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(64)))), ((int)(((byte)(66)))));
+            this.ButtonArea.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonArea.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonArea.Location = new System.Drawing.Point(37, 136);
             this.ButtonArea.Name = "ButtonArea";
@@ -154,6 +163,7 @@
             // button7
             // 
             this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(64)))), ((int)(((byte)(66)))));
+            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Location = new System.Drawing.Point(327, 194);
             this.button7.Name = "button7";
@@ -165,6 +175,7 @@
             // button8
             // 
             this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(64)))), ((int)(((byte)(66)))));
+            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Location = new System.Drawing.Point(182, 194);
             this.button8.Name = "button8";
@@ -176,6 +187,7 @@
             // ButtonBMI
             // 
             this.ButtonBMI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(64)))), ((int)(((byte)(66)))));
+            this.ButtonBMI.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonBMI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonBMI.Location = new System.Drawing.Point(37, 194);
             this.ButtonBMI.Name = "ButtonBMI";
@@ -188,6 +200,7 @@
             // ButtonMultTable
             // 
             this.ButtonMultTable.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(64)))), ((int)(((byte)(66)))));
+            this.ButtonMultTable.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonMultTable.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonMultTable.Location = new System.Drawing.Point(327, 249);
             this.ButtonMultTable.Name = "ButtonMultTable";
@@ -200,6 +213,7 @@
             // ButtonTrueTable
             // 
             this.ButtonTrueTable.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(64)))), ((int)(((byte)(66)))));
+            this.ButtonTrueTable.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonTrueTable.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonTrueTable.Location = new System.Drawing.Point(182, 249);
             this.ButtonTrueTable.Name = "ButtonTrueTable";
@@ -212,6 +226,7 @@
             // button12
             // 
             this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(64)))), ((int)(((byte)(66)))));
+            this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.Location = new System.Drawing.Point(37, 249);
             this.button12.Name = "button12";
